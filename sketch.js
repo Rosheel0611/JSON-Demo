@@ -11,6 +11,12 @@ function setup() {
   createCanvas(600, 400);
   dx = width/(weatherJSON.properties.periods.length+2)
   
+  line(20,50,20,350)
+  line(20,350,580,350)
+  textSize(32)
+  text("temperature",10,50)
+  text("month",275,380)
+  
   // const fit = (img) => {
   //   img.resize(dx,0)
   //   redraw()
@@ -40,6 +46,12 @@ function draw() {
     //   image(images[weatherJSON.properties.periods[i].icon],dx*(i+1),height/2)   
     // }    
   }
+  line(30,60,30,350)
+  line(30,350,580,350)
+  textSize(22)
+  textAlign(CENTER,CENTER)
+  text("\nT\ne\nm\np\ne\nr\na\nt\nu\nr\ne",12,175)
+  text("month",280,380)
   
   // console.log(images)
 }
