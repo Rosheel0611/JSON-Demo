@@ -51,7 +51,7 @@ function draw() {
   textSize(22)
   textAlign(CENTER,CENTER)
   text("\nT\ne\nm\np\ne\nr\na\nt\nu\nr\ne",12,175)
-  text("month",280,380)
+  text("Month",285,375)
   
   // console.log(images)
 }
